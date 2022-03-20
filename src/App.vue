@@ -2,33 +2,22 @@
   <header id="header" class="fixed-top d-flex align-items-cente">
     <div class="container-fluid container-xl d-flex align-items-center justify-content-lg-between">
 
-      <h1 class="logo me-auto me-lg-0"><a href="index.html">Como fazer café?</a></h1>
+      <h1 class="logo me-auto me-lg-0"><a href="/">Como fazer café?</a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo me-auto me-lg-0"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
       <nav id="navbar" class="navbar order-last order-lg-0">
-        <!--
+        
         <ul>
-          <li><a class="nav-link scrollto active" href="#home">Home</a></li>
+          <li><router-link :to="{ name: 'ComoEscolherCafe' }" class="nav-link scrollto">Como escolher o cafe?</router-link></li>
         </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>-->
+        <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
 
     </div>
   </header><!-- End Header -->
 
-  <!-- ======= Hero Section ======= -->
-  <section id="hero" class="d-flex align-items-center">
-    <div class="container position-relative text-center text-lg-start">
-      <div class="row">
-        <div class="col-lg-8">
-          <h1><span>Como fazer café?</span></h1>
-          <h2>Site em contrução</h2>
-        </div>
-
-      </div>
-    </div>
-  </section><!-- End Hero -->
+  <router-view/>
 
   <!-- ======= Footer ======= -->
   <footer id="footer">
