@@ -1,42 +1,34 @@
 <template>
 
-
-  <section id="hero" class="d-flex align-items-center">
-    <div class="container position-relative text-center text-lg-start">
-      <div class="row">
-        <div class="col-lg-8">
-          <h1><span>Como escolher o melhor café?</span></h1>
-        </div>
-
+<section id="hero" class="d-flex align-items-center">
+  <div class="container position-relative text-center text-lg-start">
+    <div class="row">
+      <div class="col-lg-8">
+        <h1><span>Como escolher o melhor café?</span></h1>
+        <div class="btns">
+            <a href="#como-escolher-cafe" class="btn-menu animated fadeInUp scrollto">Saiba mais</a>
+          </div>
       </div>
     </div>
-  </section>
+  </div>
+</section>
   
-  
+<main id="main">
   <section id="como-escolher-cafe" class="d-flex align-items-center">
     <div class="container position-relative text-center text-lg-start">
       <div class="row">
-        <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
-            <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
-            <p class="fst-italic">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                magna aliqua.
-            </p>
-            <ul>
-                <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-                <li><i class="bi bi-check-circle"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-                <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
-            </ul>
+        <div class="col-lg-12 pt-4 pt-lg-0 order-2 order-lg-1 content">
+            <h3>A importância de um café recém torrado</h3>
             <p>
-                Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                culpa qui officia deserunt mollit anim id est laborum
+                A qualidade de uma xícara de café é determinada em grande parte pela qualidade do café utilizado para prepará-la, 
+                portanto não existe nada melhor que um café recém torrando. O aroma do café se dissipa à medida que o café torrado 
+                envelhece. Dessa forma o melhor café é feito com o café mais fresco.
             </p>
         </div>
       </div>
     </div>
   </section>
-        
+</main> 
 </template>
 
 <script>
